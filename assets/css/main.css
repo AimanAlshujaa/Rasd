@@ -261,7 +261,8 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: #f0542c;
+    color: hsl(0, 69%, 48%);
+    /* color: #bd1f1f; */
 }
 
 a:focus {
@@ -506,12 +507,16 @@ mark, .mark {
 
 .btn-primary {
     background-color: #f0542c;
-    margin-right: 55px;
+    margin-right: 110px;
+    /* background-color: #d40000; */
+    transition: all 300ms ease;
     /* direction: rtl; */
 }
 
 .btn-primary:hover {
     background-color: #da390f;
+    /* background-color: #d40000; */
+
 }
 
 .btn-danger {
@@ -562,19 +567,27 @@ mark, .mark {
     display: none;
 }
 
-@media (min-width: 993px) {
+@media (min-width: 620px) {
     .about img {
         display: block;
+        margin-top: 100px;
     }
 
     .about .about-quote {
         position: relative;
-        bottom: 50px;
+        bottom: 405px;
         right: -30px;
         float: right;
         opacity: .85;
     }
+    
 }
+/* @media  (max-width: 619px){
+    .about .about-quote {
+        position: relative;
+        right: 20%;
+    }
+} */
 
 @media (min-width: 993px) and (min-width: 481px) {
     .about .about-quote {
@@ -695,6 +708,8 @@ mark, .mark {
 .cta-02 {
     background-color: #f0542c;
     padding: 20px 0;
+    /* background-color: #d40000; */
+
 }
 
 .cta-02__title {
@@ -792,6 +807,8 @@ mark, .mark {
 
 .gallery__overlay {
     background-color: rgba(240, 84, 44, .8);
+    /* background-color: #d40000; */
+
     width: 0;
     right: 0;
     bottom: 0;
@@ -1569,6 +1586,8 @@ mark, .mark {
 .quote-02 {
     max-width: 300px;
     background-color: #f0542c;
+    /* background-color: #d40000; */
+
     border: 5px solid #fff;
     padding: 20px;
     margin: 0;
@@ -1645,7 +1664,7 @@ mark, .mark {
 
 /* 13. rating
 --------------------------------------------------------------------------------*/
-
+/* 
 .rating__rating {
     display: inline-block;
     position: relative;
@@ -1686,7 +1705,7 @@ mark, .mark {
 .rating__text {
     display: inline-block;
     margin-left: 10px;
-}
+} */
 
 
 /* 14. services
@@ -3154,7 +3173,7 @@ mark, .mark {
     }
 }
 
-.search-btn, .header-menu__toggle {
+/* .search-btn, .header-menu__toggle {
     display: inline-block;
     vertical-align: middle;
     position: relative;
@@ -3164,12 +3183,13 @@ mark, .mark {
     line-height: 30px;
     cursor: pointer;
     font-size: 14px;
-}
+} 
 
 .search-btn {
     color: #fff;
     background-color: #f0542c;
 }
+    */
 
 .header-menu__toggle {
     background-color: #111;
@@ -3256,7 +3276,7 @@ mark, .mark {
     }
 
     .raising-nav .raising-menu .sub-menu li {
-        background-color: #111;
+        background-color: #232121;
     }
 
     .raising-nav .raising-menu .sub-menu li:first-child {

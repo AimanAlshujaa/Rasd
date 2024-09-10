@@ -1,13 +1,11 @@
 /*!
  * imagesLoaded PACKAGED v4.1.2
  * JavaScript is all like "You images are done yet or what?"
- * MIT License
  */
 
 /**
  * EvEmitter v1.0.3
  * Lil' event emitter
- * MIT License
  */
 
 /* jshint unused: true, undef: true, strict: true */
@@ -117,7 +115,6 @@ return EvEmitter;
 /*!
  * imagesLoaded v4.1.2
  * JavaScript is all like "You images are done yet or what?"
- * MIT License
  */
 
 ( function( window, factory ) { 'use strict';
