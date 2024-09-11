@@ -3021,6 +3021,17 @@ mark, .mark {
     padding-top: 80px;
     padding-bottom: 40px;
 }
+#footer{
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    align-content: center;
+    /* align-items: end; */
+}
+
+#Work{
+    margin-left: 20px;
+}
 
 
 /* 35. header-01
@@ -3945,33 +3956,6 @@ ol, ul {
     .swiper-fix-padding {
         padding: 20px 40px;
     }
-}
-
-
-
-/* 44. Page 404, Coming soon
---------------------------------------------------------------------------------*/
-
-.page-not-found, .coming-soon {
-    background-color: #fff;
-    padding: 0;
-}
-
-.page-not-found .container, .coming-soon .container {
-    height: 100vh;
-}
-
-.coming-soon h1 {
-    font-size: 40px;
-}
-
-.coming-soon p {
-    font-size: 24px;
-    margin-bottom: 40px;
-}
-
-.coming-soon .countdown {
-    margin-bottom: 80px;
 }
 
 

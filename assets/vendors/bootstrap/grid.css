@@ -583,6 +583,9 @@ hr {
   .col-sm-3 {
     width: 25%;
   }
+  /* #footer{
+    width: 100%;
+  } */
   .col-sm-2 {
     width: 16.66666667%;
   }
