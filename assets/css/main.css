@@ -1718,7 +1718,7 @@ mark, .mark {
 }
 
 .services__title {
-    font-size: 20px;
+    font-size: 17px;
     text-transform: uppercase;
     margin: 20px 0 7px;
 }
@@ -2562,7 +2562,7 @@ mark, .mark {
 
 /* 22. widget-gallery
 --------------------------------------------------------------------------------*/
-
+/* 
 .widget-gallery {
     margin: -5px;
     overflow: hidden;
@@ -2614,7 +2614,7 @@ mark, .mark {
     padding: 5px;
     float: left;
     overflow: hidden;
-}
+} */
 
 
 /* 23. widget_info
